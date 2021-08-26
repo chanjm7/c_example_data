@@ -1,0 +1,21 @@
+# 1 "intdiv4.h"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 339 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "intdiv4.h" 2
+
+
+
+# 1 "./stdiv2.h" 1
+
+
+
+typedef struct
+{
+ int quotient;
+ int remainder;
+} Div;
+# 5 "intdiv4.h" 2
+Div IntDiv(int num1, int num2);

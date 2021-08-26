@@ -1,0 +1,32 @@
+# 1 "main.c"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 339 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "main.c" 2
+# 1 "./stdiv2.h" 1
+
+
+
+typedef struct
+{
+ int quotient;
+ int remainder;
+} Div;
+# 2 "main.c" 2
+# 1 "./intdiv4.h" 1
+
+
+
+
+Div IntDiv(int num1, int num2);
+# 3 "main.c" 2
+
+int main(void)
+{
+ Div val=IntDiv(5, 2);
+ printf("몫: %d \n", val.quotient);
+ printf("나머지: %d \n", val.remainder);
+ return 0;
+}

@@ -1,0 +1,15 @@
+# 1 "stdiv2.h"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 339 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "stdiv2.h" 2
+
+
+
+typedef struct
+{
+ int quotient;
+ int remainder;
+} Div;
